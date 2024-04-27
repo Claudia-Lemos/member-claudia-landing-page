@@ -6,26 +6,31 @@ body {
 }
 
 .head-container,
-.information,
-.testimonial,
 .footer {
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.information,
+.testimonial {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .logo,
 .text {
     font-size: 18px;
     color: #E5E7EB;
+}
 
+.head-container,
+footer {
+    background-color: #1F2937;
 }
 
 .head-container {
-    background-color: #1F2937;
-    color: #F9FAF8;
     height: 340px;
     padding-top: 10px;
-
     overflow: hidden;
 }
 
@@ -40,27 +45,24 @@ body {
 }
 
 .nav {
-
     justify-content: flex-end;
 }
 
 .nav>ul {
     display: flex;
-
     list-style-type: none;
-
 }
 
 li {
     margin-right: 12px;
-
 }
 
 .content-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-top: 25px;
 }
 
 .content {
@@ -74,16 +76,20 @@ li {
     font-size: x-large;
 }
 
-
+button,
+.logo-img,
+.content-container,
+.head-container,
+.color-container,
+footer {
+    color: #F9FAF8;
+}
 
 button {
     width: 100px;
     height: 30px;
     background-color: #3882F6;
-
-    color: #F9FAF8;
-
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 
@@ -92,7 +98,6 @@ button {
     height: 200px;
     background-color: gray;
     font: 24px;
-    color: #F9FAF8;
     align-content: center;
     justify-content: center;
     display: flex;
@@ -101,7 +106,6 @@ button {
 
 .information {
     justify-content: center;
-
 }
 
 .heading {
@@ -113,21 +117,21 @@ button {
 .matter-img {
     display: flex;
     justify-content: center;
-
 }
 
-.imgs {
-    border: 3px solid #3882F6;
-    height: 130px;
-    width: 130px;
-    margin: 30px;
-    border-radius: 10px;
-}
-
+.imgs,
 .para {
     height: 130px;
     width: 130px;
     margin: 30px;
+}
+
+.imgs {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.para {
     border: 2.4px;
     display: flex;
     font-size: smaller;
@@ -138,24 +142,19 @@ button {
     background-color: #E5E7EB;
     color: #1F2937;
     padding: 50px 400px;
-
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
 }
-
-
 
 .quote {
     font-size: 30px;
     color: #1F2937;
     font-style: italic;
-
 }
 
 .author {
-    /* font-size: 20px; */
+    font-size: 20px;
     font-weight: bold;
     margin: 0%;
     display: flex;
@@ -171,30 +170,25 @@ button {
 
 .color-container {
     background-color: #3882F6;
-    color: #F9FAF8;
 
     width: 800px;
     display: flex;
     align-self: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 1%;
 }
 
+.sign-up {}
 
-.sign-up {
-    padding: 30px 100px;
-}
-
-.btn {
+div .btn {
+    border-color: #F9FAF8;
     align-self: center;
-    justify-self: center;
 }
 
 footer {
-    background-color: #1F2937;
-    height: 50px;
-    padding-top: 20px;
-    color: #F9FAF8;
-
+    height: 70px;
     justify-content: center;
     align-items: center;
     display: flex;
